@@ -15,4 +15,7 @@ export default defineNuxtConfig({
     components: {
         dirs: ["~/components", "~/components/icons"],
     },
+    router: {
+        base: '/final..github.io/'
+    }
 });
